@@ -1,0 +1,8 @@
+# Use the CentOS base image
+FROM centos
+
+# Create a directory for Apache Tomcat
+RUN mkdir /opt/tomcat/
+
+# Create a dummy shell script file
+RUN touch /opt/tomcat/shakthi.sh
